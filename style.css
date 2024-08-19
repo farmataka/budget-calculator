@@ -1,0 +1,261 @@
+body{
+  box-sizing: border-box;
+}
+.images{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+.images p{
+  font-size: 10px;
+  color: #0c5e69;
+}
+.table1{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+table {
+border-collapse: separate;
+border-spacing: 60px 0;
+width: 80%;
+}
+td{
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  height: 50px;
+}
+th{
+  border: 1px solid black;
+  padding: 5px;
+  background-color: #0c5e69 ;
+
+}
+.tableau2{
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 100%;
+  
+}
+.tableDep{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.tableau2 th{
+  background-color: #0c5e69;
+text-align: left;
+padding: 10px;
+}
+button{
+  background-color: rgb(216, 57, 57);
+  border: 0;
+  border-radius: 5px;
+  padding: 8px;
+  color: white;
+}
+.tableau2 td{
+  text-align: left;
+}
+.Vector{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h3{
+color:  #D1C000;
+}
+section{
+  height: 500px;
+}
+span{
+  color: #D1C000;
+}
+#boutonAjouterDepense{
+  cursor: pointer;
+}
+.formulaire{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50px,-50px);
+  width: 360px;
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 5px;
+
+}
+.formulaire .formContent h3{
+  color: #D1C000;
+  text-align: center;
+  margin: 10px 0 50px;
+}
+.formulaire .formContent .formDepense{
+  margin: 30px 0;
+}
+.formulaire .formContent .formDepense input[type="text"],#valider{
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  outline: none;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+.formulaire .formContent .formDepense label{
+  color: #0c5e69;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.formulaire{
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50px,-50px);
+  width: 360px;
+  background: #fff;
+  padding: 20px,30px;
+  border-radius: 5px;
+}
+.formulaire.formContent h3{
+  color: #0c5e69;
+  text-align: center;
+  margin: 10px 0 50px;
+}
+.formulaire.formContent.formDepense{
+  margin: 30px 0;
+}
+.formulaire.formContent.formDepense input[type="text"],#valider{
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  outline: none;
+  border: 1px solid#eee;
+  border-radius: 5px;
+}
+.formulaire .formContent .formDepense label{
+  color: #0c5e69;
+  width: 100%;
+  margin-bottom: 30px
+}
+#valider{
+  background-color: #0c5e69;
+  cursor: pointer;
+}
+.formulaire .closeButton{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #888;
+  color: #eee;
+  line-height: 15px;
+}
+.formulaire .hidden{
+  display: none;
+}
+.formulaire2{
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50px,-50px);
+  width: 360px;
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+.formulaire2 .formContent2 h3{
+  color: #D1C000;
+  text-align: center;
+  margin: 10px 0 50px;
+}
+.formulaire2 .formContent2 .formDepense2{
+  margin: 30px 0;
+}
+.formulaire2 .formContent2 .formDepense2 input[type="text"],#valider{
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  outline: none;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+.formulaire2.formContent2 .formDepense2 label{
+  color: #0c5e69;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.formulaire2.formContent2 h3{
+  color: #0c5e69;
+  text-align: center;
+  margin: 10px 0 50px;
+}
+.formulaire2.formContent2.formDepense2{
+  margin: 30px 0;
+}
+.formulaire2.formContent2.formDepense2 input[type="text"],#valider{
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  outline: none;
+  border: 1px solid#eee;
+  border-radius: 5px;
+}
+.formulaire2 .formContent2 .formDepense2 label{
+  color: #0c5e69;
+  width: 100%;
+  margin-bottom: 30px
+}
+#valider{
+  background-color: #0c5e69;
+  cursor: pointer;
+}
+.formulaire2 .closeButton2{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #888;
+  color: #eee;
+  line-height: 15px;
+}
+.formulaire2 .hidden{
+  display: none;
+}  
+#boutonAjouterRevenus{
+  cursor: pointer;
+}
+.tableRev{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.tableau3{
+  border-collapse: collapse;
+  width: 100%;
+  
+}

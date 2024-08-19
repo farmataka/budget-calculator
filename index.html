@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BUDGET</title>
+</head>
+<body>
+  <header>
+    <div class="images">
+    <img src="Frame_2_1-removebg-preview.png" alt="" width="100px" height="50px" ><p class="p">Gestion du budget</p> 
+    
+   </div>
+  </header>
+  <div class="table1"> 
+   <table>
+    <tr>
+      <th>Budget</th>
+      <th>Depenses</th>
+      <th>Solde</th>
+    </tr>
+    <tbody></tbody>
+    <tr> 
+      <td id="totalRevenu"></td>
+      <td id="totalDepense"></td>
+      <td id="Solde"></td>
+    </tr>
+  </tbody>
+   </table>
+  </div>
+  <div class="tableDep">
+    <h3>Liste des depenses</h3>
+    <table class="tableau2">
+      <thead>
+        <tr>
+          <th>TITRE</th>
+          <th>MONTANT</th>
+          <th>ACTIONS</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td>
+                <div class="Vector">
+               <span> AJOUTER DEPENSE</span>
+               <span><img src="Vector.png" id="boutonAjouterDepense" alt=""></span> 
+              </div>
+              </td>
+              <td></td>
+              <td></td>
+             </tr>
+            </tbody>
+          </table>
+          </div>
+          <div class="formulaire hidden">
+            <div>
+              <img src="Frame_2_1-removebg-preview.png" alt="">
+            </div>
+            <div class="closeButton" id="closeModal">&times;</div>
+            <div class="formContent">
+            <h3>AJOUTER DEPENSE</h3>
+            <div class="formDepense">
+            <label for="TITRE">TITRE</label>
+            <input type="text" id="TITRE" class="titreDepenses" placeholder="Electricite"></input>
+          </div>
+            <div class="formDepense">
+            <label for="MONTANT">MONTANT</label>
+            <input type="text" id="MONTANT" class="montantDepense" placeholder="35000"></input>
+          </div>
+          <div class="formDepense">
+            <input type="submit" id="valider" class="validerDepenses" value="VALIDER">
+          </div>
+          </div>
+          </div>
+          <section>
+          <div class="tableRev">
+            <h3>Liste des revenus</h3>
+          <table class="tableau3">
+            <thead>
+              <tbody>
+            <tr>
+            <th>TITRE</th>
+            <th>MONTANT</th>
+            <th>ACTIONS</th>
+            </tr>
+          </thead>
+          <tbody id="tbodyrev">
+            <tr>
+              <td>
+                <div class="Vector">
+               <span> AJOUTER REVENUS</span>
+               <span><img src="Vector.png" id="boutonAjouterRevenus" alt=""></span> 
+              </div>
+              </td>
+              <td></td>
+              <td></td>
+             </tr>
+            </tbody>
+          </table>
+          </div>
+        </section>
+        <div class="formulaire2 hidden">
+          <div>
+            <img src="Frame_2_1-removebg-preview.png"  alt="">
+          </div>
+          <div class="closeButton2" id="closeModal2">&times;</div>
+          <div class="formContent2">
+          <h3>AJOUTER REVENUS</h3>
+          <div class="formDepense2">
+          <label for="TITRE">TITRE</label>
+          <input type="text" id="TITRE" class="titreRevenu" 
+          placeholder="Electricite"></input>
+        </div>
+          <div class="formDepense2">
+          <label for="MONTANT">MONTANT</label>
+          <input type="text" id="MONTANT" class="montantRevenu" placeholder="15000"></input>
+        </div>
+        <div class="formDepense2">
+          <input type="submit" id="valider" class="validerRevenu" value="VALIDER">
+        </div>
+        </div>
+        </div>
+       
+        <script src="script.js"></script>
+</body>
+</html>
